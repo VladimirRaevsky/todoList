@@ -1,0 +1,36 @@
+.todo__list{
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.todo__list li {
+    position: relative;
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 8px;
+    background: #f2f2f2;
+    border-radius: 3px;
+    padding: 0 15px;
+    cursor: default;
+    overflow: hidden;
+    color: #000;
+}
+
+.todo__list li span {
+    position: absolute;
+    right: -45px;
+    background: #e74c3c;
+    width: 45px;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+
+.todo__list li:hover span {
+    right: 0;
+}
+

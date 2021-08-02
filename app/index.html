@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">Список дел</header>
+        <div class="input__field">
+            <input type="text" placeholder="Добавить новое дело">
+            <button class="btn-reset"><i class="far fa-plus-square"></i></button>
+        </div>
+
+        <ul class="todo__list">
+        </ul>
+
+        <footer class="footer">
+            <span>У вас есть <span class="pending__task"></span> не завершонные задачи</span>
+            <button class="btn-reset delete__btn">Удалить все</button>
+        </footer>
+    </div>
+    <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

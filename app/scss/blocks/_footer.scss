@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+    span {
+        color: #000;
+        font-size: 14px;
+    }
+
+    button{
+        padding: 6px 10px;
+        border-radius: 3px;
+        border: none;
+        outline: none;
+        color: #fff;
+        font-weight: 400;
+        font-size: 16px;
+        margin-left: 5px;
+        background: #8E49E8;
+        cursor: pointer;
+        user-select: none;
+        opacity: 0.6;
+        pointer-events: none;
+        transition: all 0.3s ease;
+    }
+
+    button.active{
+        opacity: 1;
+        pointer-events: auto;
+    }
+}
+
+

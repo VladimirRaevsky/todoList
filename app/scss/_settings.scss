@@ -1,0 +1,49 @@
+
+html {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px 0px 0px 0px;
+    font-family: 'Robik', sans-serif;
+    color: #ffff;
+    font-weight: 900;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #73F72B 0%, #F7DF2B 100%);
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.container {
+    max-width: 1148px;
+    margin: 0px auto;
+}
+
+.btn-reset {
+    cursor: pointer;
+    border-color: transparent;
+}
+
+::selection{
+    color: #fff;
+    background: #F72B3D;
+}
